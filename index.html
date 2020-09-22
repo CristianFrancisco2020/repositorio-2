@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>INDEX</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="complement.css" rel="stylesheet" type="text/css" />
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the header */
+header {
+  background-color: #634;
+  padding: 12px;
+  text-align: left;
+  font-size: 12px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #634;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Descripción de la página web</h2>
+<p>La temática seleccionada para la página web es: <i>Ley General de Acceso de las Mujeres a una Vida Libre de Violencia</i></p>
+<p>Esté es un ejemplo de página web el cual tiene una distribución de elementos:</p>
+<ul>
+    <li>header.</li>
+    <li>nav.</li>
+    <li>sections.</li>
+    <li>article.</li>
+    <li>footer.</li>
+</ul>
+Entre otros.
+<p>Se incluye una imagen, enlaces, otros. </p>
+
+
+<header>
+    
+     <a href="#">Menú principal</a>
+      <a href="http://www.diputados.gob.mx/">Recursos web</a>
+       <a href="#">Eventos</a>
+        <a href="#">Formularios</a>
+        <form name="#" action="22-html5-search-input.php" method="POST">
+	        Introduce el término de búsqueda: <input type="search" name="busqueda"><br>
+	<input type="submit" value="Enviar">
+    </form>
+</header>
+
+<section>
+    
+  <nav>
+      Tabla de contenidos
+    <ul>
+      <li><a href="#">Formularios</a></li>
+      <li><a href="#">Imágenes</a></li>
+      <li><a href="#">PDFS</a></li>
+    </ul>
+    <img src="https://i.ytimg.com/vi/IYhYpiV5avA/maxresdefault.jpg" width="200" height="150">
+  </nav>
+  
+  <article>
+    <h1>Blog</h1>
+    <p>Hoy quiero enseñarles el articulo 4 de Ley General de Acceso de las Mujeres a una Vida Libre de Violencia
+        <i>Es importante saber esté articulo que nos ayuda aponer a las mujeres no como objetos sino como personas que piensan y actuan de manera libre.</i>
+  </p>
+    
+    <div>
+         <i>ARTÍCULO 4</i> 
+        <hr>
+        Los principios rectores para el acceso de todas las mujeres a una vida libre de
+        violencia que deberán ser observados en la elaboración y ejecución de las políticas públicas federales y
+        locales son:
+        
+        <li>I. La igualdad jurídica entre la mujer y el hombre.</li>
+        <li>II. El respeto a la dignidad humana de las mujeres.</li>
+        <li>III. La no discriminación.</li>
+        <li>IV. La libertad de las mujeres.</li>
+
+    </div>
+  
+
+    <a href="https://www.gob.mx/cms/uploads/attachment/file/209278/Ley_General_de_Acceso_de_las_Mujeres_a_una_Vida_Libre_de_Violencia.pdf">Articulo consultado.</a>
+  </article>
+</section>
+
+<footer>
+  <p> <a href="http://transparencia.diputados.gob.mx/home">Terminos y condiciones</a>
+  Tel: 557834933
+  Direccion: : Parque Ecológico de Xochimilco, Xochimilco, Ciudad de México, CDMX</p>
+</footer>
+
+</body>
+</html>
